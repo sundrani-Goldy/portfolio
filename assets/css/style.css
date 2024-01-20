@@ -1096,3 +1096,8 @@ section .container {
     transform: translateX(-50%);
   }
 }
+.portfolio-item img {
+  width: 100%; /* Ensure the image takes the full width of its container */
+  height: 200px; /* Set a fixed height for all images (adjust as needed) */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
